@@ -243,6 +243,7 @@ MODULE ASSIM_STOMATA_conductance
 
 ! rb is for single leaf, but here the flux is for canopy, thus
 !      gbh2o  = gbh2o * cint(3)  !debug by Xingjie Lu
+      print*,'bug found'
 
 !  aerodynamic condutance between canopy and reference height atmosphere
       gah2o  = 1.0/ra * tprcor/tm                     ! mol m-2 s-1
